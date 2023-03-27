@@ -50,8 +50,7 @@
 ## Part 1: Database and Jupyter Notebook Set Up
 
 - Imported the data and libraries.
-<img width="1159" alt="Screenshot 2023-03-27 at 4 16 48 PM" src="https://user-images.githubusercontent.com/1199094
-33/228068670-dcd6166c-3524-4c19-b1e3-c2df5bfc5403.png">
+<img width="1265" alt="Screenshot 2023-03-27 at 5 51 58 PM" src="https://user-images.githubusercontent.com/119909433/228084457-e79b66dc-3ecb-4218-93d5-cf3638f6f23d.png">
 <img width="568" alt="Screenshot 2023-03-27 at 5 35 24 PM" src="https://user-images.githubusercontent.com/119909433/228082266-9dd07cb0-3f31-401b-a468-64db1a4a8732.png">
 
 - Created an instance of MongoClient.
