@@ -50,7 +50,9 @@
 ## Part 1: Database and Jupyter Notebook Set Up
 
 - Imported the data and libraries.
-<img width="1159" alt="Screenshot 2023-03-27 at 4 16 48 PM" src="https://user-images.githubusercontent.com/119909433/228068670-dcd6166c-3524-4c19-b1e3-c2df5bfc5403.png">
+<img width="1159" alt="Screenshot 2023-03-27 at 4 16 48 PM" src="https://user-images.githubusercontent.com/1199094
+33/228068670-dcd6166c-3524-4c19-b1e3-c2df5bfc5403.png">
+<img width="568" alt="Screenshot 2023-03-27 at 5 35 24 PM" src="https://user-images.githubusercontent.com/119909433/228082266-9dd07cb0-3f31-401b-a468-64db1a4a8732.png">
 
 - Created an instance of MongoClient.
 <img width="1151" alt="Screenshot 2023-03-27 at 4 17 24 PM" src="https://user-images.githubusercontent.com/119909433/228068790-e4256b92-8d3f-4fcf-971e-e96ca4ff87ca.png">
@@ -76,11 +78,13 @@
 - Updated the new restaurant with the BusinessTypeID I found. 
 <img width="1163" alt="Screenshot 2023-03-27 at 4 22 59 PM" src="https://user-images.githubusercontent.com/119909433/228069783-24164c07-565e-42b6-8c35-329d56faf201.png">
 
-- !!!!!
+- Checked how many documents contained the Dover Local Authority and removed establishments within the Dover Local Authority from the database. 
+<img width="1271" alt="Screenshot 2023-03-27 at 5 42 03 PM" src="https://user-images.githubusercontent.com/119909433/228083094-3a26d946-3229-48fa-8294-51ff6a68fc59.png">
 
 - Changed the data type from string to decimal for latitude/longitude and check that the coordinates are numbers. 
-<img width="1173" alt="Screenshot 2023-03-27 at 4 25 51 PM" src="https://user-images.githubusercontent.com/119909433/228070326-c802ff71-27e2-4eed-87a8-427544ede9fc.png">
-<img width="1153" alt="Screenshot 2023-03-27 at 4 26 11 PM" src="https://user-images.githubusercontent.com/119909433/228070390-cfbe3137-e07f-49af-af76-c85f20103413.png">
+<img width="1269" alt="Screenshot 2023-03-27 at 5 42 22 PM" src="https://user-images.githubusercontent.com/119909433/228083141-f91579e6-2325-45f7-b504-352934d4505f.png">
+<img width="1272" alt="Screenshot 2023-03-27 at 5 42 47 PM" src="https://user-images.githubusercontent.com/119909433/228083200-e9c67a1b-05fc-4300-ba0b-047afc36adb0.png">
+<img width="1250" alt="Screenshot 2023-03-27 at 5 43 05 PM" src="https://user-images.githubusercontent.com/119909433/228083233-45b6085b-ba45-43dd-ab02-ae5816d03ecb.png">
 
 
 ## Part 3: Exploratory Analysis
@@ -92,16 +96,24 @@
 <img width="1173" alt="Screenshot 2023-03-27 at 4 29 39 PM" src="https://user-images.githubusercontent.com/119909433/228070977-f21260b5-ac30-4245-aed3-2ff82eb90e01.png">
 
 - Created a query for establishments in London with a rating value greater than or equal to 4 and displayed the first document.
+<img width="1262" alt="Screenshot 2023-03-27 at 5 43 53 PM" src="https://user-images.githubusercontent.com/119909433/228083331-4c4f490d-876f-4492-ada0-f4571bde2055.png">
 
 - Converted the results to a DataFrame and displayed the DataFrame.
+<img width="1262" alt="Screenshot 2023-03-27 at 5 44 24 PM" src="https://user-images.githubusercontent.com/119909433/228083392-fad745f4-3bb1-4f4d-a66e-d870bf5026c6.png">
 
 - Created a query to find the top 5 establishments with a rating value of 5, sorted by lowest hygiene score, located nearest to the restaurant "Penang Flavours."
+<img width="1263" alt="Screenshot 2023-03-27 at 5 45 29 PM" src="https://user-images.githubusercontent.com/119909433/228083552-50a8b589-7354-4f51-a466-59f58edc5f4c.png">
 
 - Converted the results to a DataFrame and displayed the DataFrame.
+<img width="1275" alt="Screenshot 2023-03-27 at 5 46 52 PM" src="https://user-images.githubusercontent.com/119909433/228083753-a5f4edd2-3c3b-4f91-aa43-fe75c9087c24.png">
 
 - Created a query to find establishments in each Local Authority area with a hygiene score of 0.
+<img width="1265" alt="Screenshot 2023-03-27 at 5 50 20 PM" src="https://user-images.githubusercontent.com/119909433/228084222-9b29f746-7147-4cf3-adff-e7368beed942.png">
+
 
 - Converted the results to a DataFrame and displayed the DataFrame. 
+<img width="1267" alt="Screenshot 2023-03-27 at 5 50 44 PM" src="https://user-images.githubusercontent.com/119909433/228084281-445c128d-454b-41f0-995a-e6e09971aac5.png">
+
 
 # Authors 
 - Brittany Wright github:brittanynicole7
