@@ -80,7 +80,7 @@
 - Checked how many documents contained the Dover Local Authority and removed establishments within the Dover Local Authority from the database. 
 <img width="1271" alt="Screenshot 2023-03-27 at 5 42 03 PM" src="https://user-images.githubusercontent.com/119909433/228083094-3a26d946-3229-48fa-8294-51ff6a68fc59.png">
 
-- Changed the data type from string to decimal for latitude/longitude and check that the coordinates are numbers. 
+- Changed the data type from string to decimal for latitude/longitude and checked that the coordinates are numbers. 
 <img width="1269" alt="Screenshot 2023-03-27 at 5 42 22 PM" src="https://user-images.githubusercontent.com/119909433/228083141-f91579e6-2325-45f7-b504-352934d4505f.png">
 <img width="1272" alt="Screenshot 2023-03-27 at 5 42 47 PM" src="https://user-images.githubusercontent.com/119909433/228083200-e9c67a1b-05fc-4300-ba0b-047afc36adb0.png">
 <img width="1250" alt="Screenshot 2023-03-27 at 5 43 05 PM" src="https://user-images.githubusercontent.com/119909433/228083233-45b6085b-ba45-43dd-ab02-ae5816d03ecb.png">
