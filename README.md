@@ -117,5 +117,5 @@
 # Authors 
 - Brittany Wright github:brittanynicole7
 
-### Note: For the question (What are the top 5 establishments with a RatingValue rating value of '5', sorted by lowest hygiene score, nearest to the new restaurant added, 'Penang Flavours'), code was created with the help of a tutor and the code used to subtract from latitude and longitude was based on code from StackOverflow.
+Note: For the question (What are the top 5 establishments with a RatingValue rating value of '5', sorted by lowest hygiene score, nearest to the new restaurant added, 'Penang Flavours'), code was created with the help of a tutor and the code used to subtract from latitude and longitude was based on code from StackOverflow.
 
